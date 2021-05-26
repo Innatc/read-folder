@@ -1,0 +1,72 @@
+{
+  "groups": [
+    {
+      "name": "file",
+      "type": "folder.example.readfiles.model.RequestDetails",
+      "sourceType": "folder.example.readfiles.model.RequestDetails"
+    }
+  ],
+  "properties": [
+    {
+      "name": "file.accept-date",
+      "type": "java.sql.Date",
+      "sourceType": "folder.example.readfiles.model.RequestDetails"
+    },
+    {
+      "name": "file.end-date",
+      "type": "java.sql.Date",
+      "sourceType": "folder.example.readfiles.model.Product"
+    },
+    {
+      "name": "file.event",
+      "type": "java.util.List<folder.example.readfiles.model.Event>",
+      "sourceType": "folder.example.readfiles.model.RequestDetails"
+    },
+    {
+      "name": "file.id",
+      "type": "java.lang.String",
+      "sourceType": "folder.example.readfiles.model.RequestDetails"
+    },
+    {
+      "name": "file.identifier",
+      "type": "java.lang.Integer",
+      "sourceType": "folder.example.readfiles.model.RequestDetails"
+    },
+    {
+      "name": "file.insured-id",
+      "type": "java.lang.Integer",
+      "sourceType": "folder.example.readfiles.model.Event"
+    },
+    {
+      "name": "file.price",
+      "type": "java.lang.Double",
+      "sourceType": "folder.example.readfiles.model.Product"
+    },
+    {
+      "name": "file.product",
+      "type": "java.util.List<folder.example.readfiles.model.Product>",
+      "sourceType": "folder.example.readfiles.model.Event"
+    },
+    {
+      "name": "file.source-company",
+      "type": "java.lang.String",
+      "sourceType": "folder.example.readfiles.model.RequestDetails"
+    },
+    {
+      "name": "file.start-date",
+      "type": "java.sql.Date",
+      "sourceType": "folder.example.readfiles.model.Product"
+    },
+    {
+      "name": "file.type",
+      "type": "java.lang.String",
+      "sourceType": "folder.example.readfiles.model.Event"
+    },
+    {
+      "name": "file.upload-dir",
+      "type": "java.lang.String",
+      "sourceType": "folder.example.readfiles.property.FileStorageProperties"
+    }
+  ],
+  "hints": []
+}
